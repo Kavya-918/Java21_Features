@@ -43,3 +43,20 @@ public class VirtualThreadExample {
         java21VirtualThreads();
     }
 }
+
+
+
+/** Output 
+[Running] cd "d:\Practise_Folder\Java21\" && javac VirtualThreadExample.java && java VirtualThreadExample
+--- Before Java 21 ---
+Running task on: Thread[#21,Thread-0,5,main]
+Running task on: Thread[#22,Thread-1,5,main]
+Running task on: Thread[#23,Thread-2,5,main]
+
+--- Java 21 Virtual Threads ---
+Running task on (Virtual): VirtualThread[#26]/runnable@ForkJoinPool-1-worker-2
+Running task on (Virtual): VirtualThread[#24]/runnable@ForkJoinPool-1-worker-1
+Running task on (Virtual): VirtualThread[#27]/runnable@ForkJoinPool-1-worker-3
+
+**/
+
