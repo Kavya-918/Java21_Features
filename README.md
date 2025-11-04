@@ -1,4 +1,5 @@
 
+
 ---
 
 # ☕ Java21_Features
@@ -16,6 +17,8 @@ Each file demonstrates a specific enhancement with **before Java 21** and **Java
 * Makes it beginner-friendly for small programs.
 * **Preview feature in JDK 21**, became **standard in JDK 25**.
 
+📄 **File:** `Demo.java`
+
 ---
 
 ### 2. **Pattern Matching for Switch**
@@ -24,12 +27,16 @@ Each file demonstrates a specific enhancement with **before Java 21** and **Java
 * Eliminates manual type casting inside conditions.
 * Supports `null` handling in switch cases.
 
+📄 **File:** `PatternMatchSwitchExample.java`
+
 ---
 
 ### 3. **Record Patterns (JEP 440)**
 
 * Allows **deconstruction** of record objects directly in `instanceof` or `switch`.
 * Extracts (unpacks) record fields easily.
+
+📄 **File:** `RecordPatternExample.java`
 
 ---
 
@@ -38,6 +45,8 @@ Each file demonstrates a specific enhancement with **before Java 21** and **Java
 * Introduces new methods like `addFirst()`, `addLast()`, `getFirst()`, `getLast()`.
 * Simplifies working with collections in insertion order.
 
+📄 **File:** `SequencedCollectionExample.java`
+
 ---
 
 ### 5. **String Templates (JEP 430)** – *Preview Feature*
@@ -45,12 +54,25 @@ Each file demonstrates a specific enhancement with **before Java 21** and **Java
 * Enables easy variable interpolation using `STR`, `FMT`, and `RAW` templates.
 * Makes string construction cleaner and more readable.
 
+📄 **File:** `StringTemplateExample.java`
+
 ---
 
 ### 6. **Virtual Threads (JEP 444)**
 
 * Lightweight threads for high concurrency and scalability.
 * Makes thread creation and management more efficient than traditional threads.
+
+📄 **File:** `VirtualThreadExample.java`
+
+---
+
+### 7. **Text Blocks (JEP 378)**
+
+* Multi-line string literals using `"""`.
+* Easier formatting for JSON, SQL, or HTML output.
+
+📄 **File:** `TextBlockDemo.java`
 
 ---
 
