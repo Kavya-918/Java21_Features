@@ -34,3 +34,21 @@ public class PatternMatchSwitchExample {
         java21(null);
     }
 }
+
+/**Output
+[Running] cd "d:\Practise_Folder\Java21\" && javac PatternMatchSwitchExample.java && java PatternMatchSwitchExample
+Before Java 21:
+String value (length): 4
+Integer value (double): 42
+
+Java 21:
+String value (length): 11
+Integer value (double): 20
+Null value provided
+
+[Done] exited with code=0 in 1.05 seconds
+
+
+**/
+
+
