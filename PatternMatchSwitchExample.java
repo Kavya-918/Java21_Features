@@ -25,30 +25,32 @@ public class PatternMatchSwitchExample {
 
     public static void main(String[] args) {
         System.out.println("Before Java 21:");
-        beforeJava21("Kavi");
+        beforeJava21("KavyaDeveloper");
         beforeJava21(21);
 
         System.out.println("\nJava 21:");
-        java21("Chantuu Boy");
+        java21("KavyaTrainer");
         java21(10);
         java21(null);
     }
 }
 
+
+
 /**Output
 [Running] cd "d:\Practise_Folder\Java21\" && javac PatternMatchSwitchExample.java && java PatternMatchSwitchExample
 Before Java 21:
-String value (length): 4
+String value (length): 14
 Integer value (double): 42
 
 Java 21:
-String value (length): 11
+String value (length): 12
 Integer value (double): 20
 Null value provided
 
-[Done] exited with code=0 in 1.05 seconds
+[Done] exited with code=0 in 0.877 seconds
+
+
 
 
 **/
-
-
